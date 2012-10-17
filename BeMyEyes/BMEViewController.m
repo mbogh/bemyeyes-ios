@@ -9,10 +9,6 @@
 #import "BMEViewController.h"
 #import <OpenTok/Opentok.h>
 
-static NSString* const kApiKey = @"20403682";
-static NSString* const kToken = @"T1==cGFydG5lcl9pZD0yMDQwMzY4MiZzZGtfdmVyc2lvbj10YnB5LUBzZGtfdmVyc2lvbkAuQG9wZW50b2suc2RrLnB5dGhvbi5tb2RfdGltZUAmc2lnPWQ2OTZiYWE0NDU4MmJkY2NlYjQyYzNmYTRkZjcyMjRhMDQ1ZjcwYjQ6bm9uY2U9NjQ1NzAwJmNyZWF0ZV90aW1lPTEzNDgxMTgwNzAmcm9sZT1wdWJsaXNoZXImc2Vzc2lvbl9pZD0xX01YNHlNRFF3TXpZNE1uNS1WMlZrSUZObGNDQXhPU0F5TWpveE5Eb3pNQ0JRUkZRZ01qQXhNbjR3TGpVek1qUXpNek4t";
-static NSString* const kSessionId = @"1_MX4yMDQwMzY4Mn5-V2VkIFNlcCAxOSAyMjoxNDozMCBQRFQgMjAxMn4wLjUzMjQzMzN-";
-
 @interface BMEViewController () <OTPublisherDelegate, OTSessionDelegate, OTSubscriberDelegate>
 @property (weak, nonatomic) IBOutlet UIView *videoPlaceholderView;
 @property (weak, nonatomic) IBOutlet UIButton *startButton;
